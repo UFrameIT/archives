@@ -1,4 +1,4 @@
-# UFrameIT archives
+# UFrameIT Archives
 
 Aggregation of archives as submodules needed by UFrameIT
 
