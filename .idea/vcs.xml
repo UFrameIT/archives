@@ -2,5 +2,10 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MathHub/FrameIT/frameworld" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MathHub/MMT/LFX" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MathHub/MMT/urtheories" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MathHub/MitM/Foundation" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MathHub/MitM/core" vcs="Git" />
   </component>
 </project>
