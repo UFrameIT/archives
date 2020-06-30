@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="mmt-mh" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/MathHub/FrameIT/frameworld/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathHub/MMT/LFX/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathHub/MMT/urtheories/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathHub/MitM/Foundation/scala" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="MMT API">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../mmt/deploy" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+        <jarDirectory url="file://$MODULE_DIR$/../../mmt/deploy" recursive="false" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
