@@ -1,0 +1,16 @@
+[submodule "MathHub/MMT/urtheories"]
+	path = MathHub/MMT/urtheories
+	url = https://gl.mathhub.info/MMT/urtheories.git
+	branch = devel
+[submodule "MathHub/MMT/LFX"]
+	path = MathHub/MMT/LFX
+	url = https://gl.mathhub.info/MMT/LFX.git
+	branch = devel
+[submodule "MathHub/MitM/Foundation"]
+	path = MathHub/MitM/Foundation
+	url = https://gl.mathhub.info/MitM/Foundation.git
+	branch = devel
+[submodule "MathHub/FrameIT/frameworld"]
+	path = MathHub/FrameIT/frameworld
+	url = https://gl.mathhub.info/FrameIT/frameworld.git
+	branch = master
