@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/MathHub/MMT/LFX/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MathHub/MMT/urtheories/scala" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MathHub/MitM/Foundation/scala" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MathHub/MitM/core/scala" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
