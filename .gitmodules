@@ -13,7 +13,7 @@
 [submodule "MathHub/FrameIT/frameworld"]
 	path = MathHub/FrameIT/frameworld
 	url = https://gl.mathhub.info/FrameIT/frameworld.git
-	branch = master
+	branch = devel
 [submodule "MathHub/MitM/core"]
 	path = MathHub/MitM/core
 	url = https://gl.mathhub.info/MitM/core.git
