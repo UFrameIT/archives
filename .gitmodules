@@ -17,4 +17,4 @@
 [submodule "MathHub/MitM/core"]
 	path = MathHub/MitM/core
 	url = https://gl.mathhub.info/MitM/core.git
-	branch = master
+	branch = devel
