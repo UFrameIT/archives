@@ -30,5 +30,5 @@ If you want to view, edit, and update files in the formalization, follow these s
    In other words: from within `archives`, the path `../mmt/deploy/mmt.jar` should resolve to the `mmt.jar` from step 1.
    (The IntelliJ "MathHub project" from the MMT IntelliJ plugin references such a relative path in its project file [archives.iml](./archives.iml).)
 
-**Updating archives:** running `.\update.ps1` (on Windows) and `.\update.sh` (on \*nix) take care of a longish Git command updating all submodules.
-Commit all your changes before running them.
+**Updating archives:** running `.\update.ps1` (on Windows) or `.\update.sh` (on \*nix) takes care of a longish sequence of Git commands updating all submodules.
+*Warning:* commit all your changes before running them!
