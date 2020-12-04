@@ -14,7 +14,7 @@ This Git repository contains the following archives as Git submodules:
 ## Installation
 
 - download: `git clone --recurse-submodules https://github.com/UFrameIT/archives.git`
-- update: `git pull --recurse-submodules`
+- update: `git pull --recurse-submodules` and then `git submodule foreach git checkout devel`
 
 ## Development
 
