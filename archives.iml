@@ -13,11 +13,11 @@
     <orderEntry type="module-library">
       <library name="MMT API">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../mmt/deploy" />
+          <root url="file://$MODULE_DIR$/../mmt/deploy" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-        <jarDirectory url="file://$MODULE_DIR$/../../mmt/deploy" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../mmt/deploy" recursive="false" />
       </library>
     </orderEntry>
   </component>
