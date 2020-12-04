@@ -30,4 +30,4 @@ If you want to view, edit, and update files in the formalization, follow these s
    In other words: from within `archives`, the path `../mmt/deploy/mmt.jar` should resolve to the `mmt.jar` from step 1.
    (The IntelliJ "MathHub project" from the MMT IntelliJ plugin references such a relative path in its project file [archives.iml](./archives.iml).)
 
-For updating the archives: `git pull && git pull --recurse-submodules && git submodule foreach git checkout devel`.
+For updating the archives: `git pull && git pull --recurse-submodules && git submodule foreach git checkout devel && git submodule foreach git pull`
