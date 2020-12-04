@@ -18,10 +18,11 @@ If you want to view, edit, and update files in the formalization, follow these s
 1. [Install MMT](https://uniformal.github.io//doc/setup/).
 
    At a minimum you need an `mmt.jar`, IntelliJ, and the [MMT plugin for IntelliJ](https://github.com/UniFormal/IntelliJ-MMT).
-   In case of a precompiled one, preferably use the [latest `mmt.jar` from the devel branch as built by MMT's CI](https://github.com/UniFormal/MMT/actions?query=branch%3Adevel+event%3Apush+is%3Acompleted) and place it into some new directories as `mmt/deploy/mmt.jar`.
-   In case of a self-built one, you have the [MMT repository](https://github.com/UniFormal/MMT) cloned anyway.
-   Make sure it is cloned to a directory named `mmt`.
-   Then, if you [build an `mmt.jar`via SBT](https://uniformal.github.io//doc/setup/sbt.html), it will automatically be created at `mmt/deploy/mmt.jar`.
+   
+   - In case of a precompiled one, preferably use the [latest `mmt.jar` from the devel branch as built by MMT's CI](https://github.com/UniFormal/MMT/actions?query=branch%3Adevel+event%3Apush+is%3Acompleted) and place it into some new directories as `mmt/deploy/mmt.jar`.
+   - In case of a self-built one, you have the [MMT repository](https://github.com/UniFormal/MMT) cloned anyway.
+     Make sure it is cloned to a directory named `mmt`.
+     Then, if you [build an `mmt.jar` via SBT](https://uniformal.github.io//doc/setup/sbt.html), it will automatically be created at `mmt/deploy/mmt.jar`.
 
 2. Clone this repository: `git clone --recurse-submodules https://github.com/UFrameIT/archives.git`
 
