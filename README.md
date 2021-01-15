@@ -1,6 +1,7 @@
 # UFrameIT Archives
 
 All MMT archives of formalizations needed by the [UFrameIT prototype](https://github.com/UFrameIT/UFrameIT) in the [FrameIT project](https://uframeit.org).
+This repository is co-released with UFrameIT as a whole, see [here](https://github.com/UFrameIT/UFrameIT/releases).
 
 This Git repository contains the following archives as Git submodules:
 
