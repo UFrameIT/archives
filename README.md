@@ -32,10 +32,11 @@ If you want to view, edit, and update files in the formalization, follow these s
    (The IntelliJ "MathHub project" from the MMT IntelliJ plugin references such a relative path in its project file [archives.iml](./archives.iml).)
 
 ## Updating archives
-`.\update.cmd` (on Windows) or `.\update.sh` (on \*nix) takes care of a longish sequence of Git commands to update all submodules.
-*Warning:* commit all your changes before running them!
+*Warning:* commit all your changes before running one of the following commands!
+- `.\update-remote.cmd` (on Windows) or `.\update-remote.sh` (on \*nix) takes care of a longish sequence of Git commands to update all submodules to the latest remote commit.  
+  If everything works and you have the needed git permissions, please commit and push the update.
+- `.\update.cmd` (on Windows) or `.\update.sh` (on \*nix) updates to the version committed on the current branch in the archives repo.
 
-If everything works and you have the needed git permissions, please commit and push the update.
 
 ## compiling the archives
 1. Make sure you have an up to date `mmt.jar` located in `../MMT/deploy/mmt.jar` relative to the archives repository.
