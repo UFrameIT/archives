@@ -28,4 +28,5 @@ git submodule update --init --remote
 set +x
 
 # wait for user input to let the user see if there were any errors
-read -p "Press enter to continue"
+read -p "Press enter to continue" ENTER
+
