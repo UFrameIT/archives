@@ -3,7 +3,7 @@
 
 # warn before deleting uncommitted changes
 while true; do
-    read -p "This will delete all your uncommitted changes and update to the version that is committed in the archives repository, do you want to continue? [y,n]: " yn
+    read -p "This will delete all your uncommitted changes and update to the latest remote commit, do you want to continue? [y,n]: " yn
     case $yn in
         [Yy]* ) break;;
         [Nn]* ) exit 2;;
@@ -17,8 +17,8 @@ set -x
 ./clean.sh
 git pull
 # init submodules in case they haven't been cloned yet
-# and update them to the version that is committed in the archives repository
-git submodule update --init
+# and update them to the latest remote commit
+git submodule update --init --remote
 ./clean.sh
 
 #git submodule foreach git checkout devel
