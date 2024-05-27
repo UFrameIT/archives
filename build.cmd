@@ -1,1 +1,1 @@
-../MMT/deploy/run-file build.msl
+../MMT/deploy/run-file.bat build.msl
