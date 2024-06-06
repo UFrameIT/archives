@@ -2,5 +2,6 @@ mathpath archive .
 
 file MathHub/MMT/urtheories/build.msl
 file MathHub/MMT/LFX/build.msl
+file MathHub/MitM/Foundation/build.msl
 file MathHub/MitM/core/build.msl
 file MathHub/FrameIT/frameworld/build.msl
