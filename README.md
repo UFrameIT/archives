@@ -41,3 +41,7 @@ If you want to view, edit, and update files in the formalization, follow these s
 ## compiling the archives
 1. Make sure you have an up to date `mmt.jar` located in `../MMT/deploy/mmt.jar` relative to the archives repository.
 2. Run `.\build.cmd` (on Windows) or `.\build.sh` (on \*nix)
+
+## In case of errors
+Often using [clean.sh](https://github.com/UFrameIT/archives/commit/2915df100e709d6c8f3b7cd3f73437bb586230d5) can resolve weird errors that might pop up. It can be used on Windows via the git bash. The cmd script is not complete.
+
