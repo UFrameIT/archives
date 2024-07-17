@@ -14,12 +14,12 @@ done
 # echo commands
 set -x
 
-./clean.sh
+./clean-git.sh -y
 git pull
 # init submodules in case they haven't been cloned yet
 # and update them to the version that is committed in the archives repository
 git submodule update --init
-./clean.sh
+./clean-git.sh -y
 
 #git submodule foreach git checkout devel
 #git submodule foreach git pull
