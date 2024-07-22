@@ -1,4 +1,10 @@
 #!/bin/sh
+set -euo pipefail
+
+if [ ! -d "MathHub" ]; then
+  echo "this script needs to be executed in the archives repository"
+  exit 1
+fi
 
 # this only removes build artefacts and should not delete any source code changes (no gurantee)
 echo "Removing all (commited and uncommited) build artefacts:"

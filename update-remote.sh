@@ -1,5 +1,11 @@
 #!/bin/sh
+set -euo pipefail
 # when editing, reflect changes in `update.cmd`, too!
+
+if [ ! -d "MathHub" ]; then
+  echo "this script needs to be executed in the archives repository"
+  exit 1
+fi
 
 # warn before deleting uncommitted changes
 while true; do

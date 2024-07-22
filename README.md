@@ -13,6 +13,10 @@ This Git repository contains the following archives as Git submodules:
 **If you just want to lurk how formalizations look like in UFrameIT, click here: <https://gl.mathhub.info/FrameIT/frameworld/-/tree/devel/>.**
 
 ## Installation
+### via UFrameIT-install
+If you are using this repository together with UFrameIT it is highly recomendet that you install it via [UFrameIT-install](https://gl.kwarc.info/FrameIT/uframeit-install).
+
+### manual installation
 
 If you want to view, edit, and update files in the formalization, follow these steps:
 
@@ -43,5 +47,5 @@ If you want to view, edit, and update files in the formalization, follow these s
 2. Run `.\build.cmd` (on Windows) or `.\build.sh` (on \*nix)
 
 ## In case of errors
-Often using [clean.sh](https://github.com/UFrameIT/archives/commit/2915df100e709d6c8f3b7cd3f73437bb586230d5) can resolve weird errors that might pop up. It can be used on Windows via the git bash. The cmd script is not complete.
+Often using [clean.sh](https://github.com/UFrameIT/archives/blob/master/clean.sh) can resolve weird errors that might pop up. It can be used on Windows via the git bash.
 
